@@ -1,6 +1,7 @@
 body {
-    background: black;
-    color: tan;
+    background-image: url("../images/desert.jpg");
+    background-size: cover;
+    color: black;
     margin: 20px;
     padding: 10px;
     text-align: center;
@@ -11,11 +12,18 @@ h1 {
     font-size: 40px;
 }
 
-
 h2 {
 font-size: 30px
 }
 
 p {
     font-size: 25px;
+}
+
+#alert-message {
+    width: 100%;
+    background: #e2b561;
+    color: black;
+    text-align: center;
+    
 }
